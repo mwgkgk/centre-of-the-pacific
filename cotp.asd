@@ -1,4 +1,4 @@
-(defsystem "centre-of-the-pacific"
+(defsystem "cotp"
   :version "0.0.420"
 
   ; #:com.google.base is used for prefixp "Swank"
