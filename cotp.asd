@@ -1,7 +1,8 @@
 (defsystem "centre-of-the-pacific"
   :version "0.0.420"
 
-  :depends-on (#:swank)
+  ; #:com.google.base is used for prefixp "Swank"
+  :depends-on (#:com.google.base :swank)
 
   :components ((:module "src"
                 :serial t 
