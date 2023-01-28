@@ -5,7 +5,12 @@
   :depends-on (#:com.google.base :swank)
 
   :components ((:module "src"
-                :serial t 
+                :serial t
                 :components
                 ((:file "package")
-                 (:file "live-repl")))))
+                 (:file "live-repl")
+                 (:module "conf"
+                  :serial t
+                  :components
+                  ((:file "groups")
+                   (:file "rules")))))))
